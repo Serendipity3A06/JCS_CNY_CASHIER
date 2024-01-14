@@ -1,0 +1,57 @@
+.container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.item {
+margin: 2px;
+padding: 2px;
+border: 1px solid #ccc;
+width: 400px;
+height: 78px;
+text-align: center;
+}
+
+.calculator {
+width: 50%;
+text-align: center;
+}
+
+.summary {
+position: absolute;
+top: 0;
+right: 0;
+margin-top: 20px;
+text-align: center;
+}
+
+table {
+width: 420px;
+margin-top: 20px;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+#totalSales {
+margin-top: 20px;
+}
+
+#itemDetails {
+margin-top: 20px;
+}
+
+.totalQuantitySold {
+position: absolute;
+right: 100%;
+border-collapse: collapse;
+}
+
+.item.selected {
+border: 3px solid #007bff; /* Apply a 3px border to the selected item */
+background-color: #f3f8ff; /* Change the background color to a very light blue */
+}
