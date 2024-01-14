@@ -1,0 +1,44 @@
+.container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.item {
+margin: 2px;
+padding: 2px;
+border: 1px solid #ccc;
+width: 400px;
+height: 78px;
+text-align: center;
+}
+
+.calculator {
+width: 50%;
+text-align: center;
+}
+
+.summary {
+position: absolute;
+top: 0;
+right: 0;
+margin-top: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+#totalSales {
+margin-top: 20px;
+}
+
+#itemDetails {
+margin-top: 20px;
+}
